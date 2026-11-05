@@ -14,8 +14,8 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("9116182776:AAECe5fCisqBeI8VgI9EzUk6Qx23iH_q5Yk")
-ADMIN_ID = int(os.getenv("8855682217"))
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9116182776:AAECe5fCisqBeI8VgI9EzUk6Qx23iH_q5Yk")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8855682217"))
 CHANNEL_LINK = "https://t.me/xmoapx"
 CHANNEL_ID = -1004454262492
 FIREBASE_DATA_CHANNEL = -1003912758799
